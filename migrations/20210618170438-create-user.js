@@ -32,7 +32,8 @@ module.exports = {
       role: {
         type: Sequelize.ENUM,
         values: ['admin', 'student'],
-        allowNull: false
+        allowNull: false,
+        defaultValue: "student",
       },
       createdAt: {
         allowNull: false,
