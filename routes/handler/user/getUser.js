@@ -16,6 +16,7 @@ module.exports = async (req, res) => {
         status: "success",
         data: {
             id: user.id,
+            name: user.name,
             email: user.email,
             profession: user.profession,
             role: user.role,
